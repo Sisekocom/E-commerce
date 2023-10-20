@@ -25,15 +25,7 @@ img{
 
 }
 
-.container {
- 
-    margin-block: 20px;
-    --numbOfRed: 123;
-    --numbOfOrange: 100;
-    --numbOfYellow: 18;
-    border-width: 5px 8px;
-    border-image: radial-gradient(120deg, var(--numbOfRed), var(--numbOfOrange), var(--numbOfYellow));
-}
+
 
 
 .container :is(#example1, #example2, #example3),
@@ -67,29 +59,11 @@ img{
     border: 3px solid;
     border-image: linear-gradient(red, var(--awesome)) 11 fill;
 }
-
-.image-animation {
-    background: linear-gradient(to right, green, yellow);
-    height: 300px;
-}
-
-img[alt="Image"] {
-    width: 5rem;
-    aspect-ratio: 1/1;
-    animation: animateLaptop 5s infinite;
-    transition: all .5s;
-}
-
-
-
-
-
 .topnav {
     background-image: url(https://www.bing.com/th/id/OGC.4b2eb570efab635b2ccf47f4851fd3f6?pid=1.7&rurl=https%3a%2f%2fpro2-bar-s3-cdn-cf2.myportfolio.com%2f86e8a0fb-1a10-4498-a5f4-c4ebe6aece02%2f3ba28909-b0bf-4720-8fd1-0d9ee42f5332_rw_600.gif%3fh%3d9a6e14cf79b98ba643b43bacff7de62b&ehk=OR2KT8e50AQFXNmGae2GA6t1iNpb1lvD%2b%2ftW7E0xwng%3d);
     overflow: hidden;
   }
   
-
   .topnav a {
     float: left;
     color: #f2f2f2;
@@ -136,17 +110,22 @@ img[alt="Image"] {
     top: 0;
     border: 2px dotted rgb(47, 255, 210);
     background-color: rgba(32, 31, 31, 0.8);
-  }
+    background-image: url(https://www.bing.com/th/id/OGC.6297d9615bf3a1f43e831368b9b127e4?pid=1.7&rurl=https%3a%2f%2fwallpapercave.com%2fwp%2fwp2763763.gif&ehk=D2INTN5sylexbHFQH1QDqBxXhcEFp3eM68DULPNMRyk%3d);
+  
+}
   h3{
     text-decoration-line: underline;
     text-transform: uppercase;
     text-decoration: double;
     text-overflow: ellipsis;
   }
+#PARA{
+    padding-top: 10%;
+    font-weight: bolder;
+    font-size: x-large;
+    text-decoration: dotted;
 
-  #gif{
-    border-radius: 50%;
-    width: 1200px;
-    margin-left: 10%;
-
-  }
+}
+#gif{
+    padding-left: 10%;
+}
