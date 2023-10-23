@@ -108,9 +108,9 @@ img{
   #heading{
     position: sticky;
     top: 0;
-    border: 2px dotted rgb(47, 255, 210);
+    border: 2px dotted rgb(255, 47, 47);
     background-color: rgba(32, 31, 31, 0.8);
-    background-image: url(https://www.bing.com/th/id/OGC.6297d9615bf3a1f43e831368b9b127e4?pid=1.7&rurl=https%3a%2f%2fwallpapercave.com%2fwp%2fwp2763763.gif&ehk=D2INTN5sylexbHFQH1QDqBxXhcEFp3eM68DULPNMRyk%3d);
+  
   
 }
   h3{
@@ -129,3 +129,15 @@ img{
 #gif{
     padding-left: 10%;
 }
+
+@media ( max-width: 800px) {
+    .row{
+        flex-direction: column-reverse;
+    }
+    .col-25{ margin-bottom: 20px;
+
+    }
+}
+        
+
+ 
